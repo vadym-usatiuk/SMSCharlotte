@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>SMS</groupId>
+
+	<artifactId>SMSCharlotte</artifactId>
+
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+		<dependency>
+
+			<groupId>org.eclipse.persistence</groupId>
+
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+
+			<version>2.7.7</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>mysql</groupId>
+
+			<artifactId>mysql-connector-java</artifactId>
+
+			<version>8.0.21</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.junit.jupiter</groupId>
+
+			<artifactId>junit-jupiter-engine</artifactId>
+
+			<version>5.1.0</version>
+
+			<scope>test</scope>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>com.shazam</groupId>
+
+			<artifactId>shazamcrest</artifactId>
+
+			<version>0.11</version>
+
+			<scope>test</scope>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.hamcrest</groupId>
+
+			<artifactId>hamcrest-all</artifactId>
+
+			<version>1.3</version>
+
+			<scope>test</scope>
+
+		</dependency>
+
+	</dependencies>
+
+	<properties>
+
+		<maven.compiler.source>1.8</maven.compiler.source>
+
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+	</properties>
+
+</project>
